@@ -42,12 +42,17 @@ for (var i = 0; i < pacientes.length; i++) {
 
 }
 
+var botaoAdicionar = document.querySelector('#adicionar-paciente');
+botaoAdicionar.addEventListener('click', function() {
+  console.log('Oi! Cliquei no botão!');
+});
+
 // titulo.addEventListener('click', mostraMensagem);
 
 // function mostraMensagem() {
 //   alert('Olá! Eu fui clicado!');
 // }
 
-titulo.addEventListener('click', function(){
-  alert('Olha só! Posso chamar uma função anonima!')
-});
+// titulo.addEventListener('click', function(){
+//   alert('Olha só! Posso chamar uma função anonima!')
+// });
